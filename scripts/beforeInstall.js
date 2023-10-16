@@ -6,7 +6,7 @@ var resp = {
 if ('${settings.ls_addon:false}'== 'true') {
   resp.nodes.push({
     nodeType: "llsmp",
-    engine: "php8.1",
+    tag: "6.1.2-php-8.0.29-almalinux-9",
     flexibleCloudlets: ${settings.cp_flexibleCloudlets:32},
     fixedCloudlets: ${settings.cp_fixedCloudlets:1},
     nodeGroup: "cp",
